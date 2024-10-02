@@ -1,0 +1,546 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(60px);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    z-index: 1;
+}
+
+#wander {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Dancing Script", cursive;
+}
+
+#subhead {
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-weight: 580;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+nav a:hover {
+    color: rgb(169, 121, 0);
+}
+
+#searchbutton {
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 2px 10px;
+}
+
+.home {
+    width: 100%;
+    height: 500px;
+    background-image: url(./media/imagebg.jpg);
+    background-size: cover;
+}
+
+.homecontent {
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+#tophead {
+    color: rgb(167, 0, 0);
+}
+
+.mainhead {
+    margin-left: 100px;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.sub {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: justify;
+
+}
+
+#explore {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+
+}
+
+#explore a {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(167, 0, 0);
+    color: white;
+    padding: 2px 10px;
+    font-size: 15px;
+
+}
+
+#explore a:hover {
+    background-color: rgba(255, 226, 104, 255);
+    color: black;
+}
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+
+    /* background-color: blue; */
+}
+
+.contentbox {
+    width: 180px;
+    height: 230px;
+    /* border: solid; */
+    margin: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    align-content: center;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.colorbox {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 225, 0);
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -100px;
+    border-top-right-radius: 20px;
+}
+
+.boximage {
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+.boxbutton a {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(195, 172, 0);
+    color: rgb(255, 255, 255);
+    padding: 2px 10px;
+    font-size: 13px;
+    /* margin-left: 26px; */
+    font-weight: 550;
+
+
+
+}
+
+.boxbutton a:hover {
+    background-color: rgb(177, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#train {
+    width: 100px;
+    margin-left: 22px;
+}
+
+#hotels {
+    width: 100px;
+    margin-left: 22px;
+}
+
+#desti {
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#plane {
+    width: 100%;
+    /* margin-left: 22px; */
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.servicecontent {
+    font-size: 8px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#serviceshead {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#destinationhead {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.destinationbox {
+    width: 180px;
+    height: 250px;
+    /* border: solid; */
+    margin: 35px;
+    border-radius: 20px;
+    /* padding: 10px; */
+    /* align-content: center; */
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.imagedesti {
+    width: 100%;
+    height: 85%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.destiname {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+
+.destination {
+    display: flex;
+    justify-content: center;
+}
+
+.next {
+    margin: 80px 80px 0px 80px;
+    background-color: bisque;
+    padding: 50px;
+    display: flex;
+}
+
+.bookyour {
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.easysteps {
+    margin-top: 15px;
+}
+
+.cont {
+    margin-left: 4px;
+    font-size: 20px;
+}
+
+.subcont {
+    margin-left: 26px;
+    font-size: 10px;
+}
+
+.cursor {
+    font-size: 18px;
+}
+
+.nextimagecont {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 220px;
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.greeceicons i {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+.secondcont {
+    position: relative;
+}
+
+.rome {
+    width: 200px;
+    height: 65px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -120px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    align-content: center;
+    padding-bottom: 15px;
+
+
+}
+
+.romerome {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#romeimg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+
+
+}
+
+.rometext {
+    margin-top: 10px;
+
+}
+
+.romebookings {
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.bars {
+    width: 100px;
+    height: 5px;
+    background-color: aqua;
+    margin-left: 71px;
+    margin-top: -35px;
+    position: relative;
+
+}
+
+
+.topbar {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.bottombar {
+    width: 75%;
+    background-color: rgb(255, 183, 0);
+    border-radius: 20px;
+
+}
+
+
+
+
+.form1 {
+    
+        
+}
+
+
+
+.emailtxt{
+    font-size: 30px;
+}
+
+.inputbox{
+    margin-top: 50px;
+    width:500px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 4px 2px 10px rgba(0, 0,0, 0.2);
+}
+
+.subbutton{
+    margin-left: 50px;
+    text-decoration: none;
+    background-color: rgb(230, 149, 0);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.subbutton:hover{
+    background-color: rgb(60, 60, 60);
+}
+
+.footerpart{
+    margin-top: 80px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px rgba(0, 0,0, 0.2);
+
+}
+
+.formimg{
+    width: 400px;
+    height:400px;
+    /* background-color: aqua; */
+    margin-top: -50px;
+}
+.formcont{
+    margin: 80px 80px 0px 80px;
+    background-color: rgb(228, 228, 228);
+    padding: 50px;
+    height: 300px;
+    border-top-right-radius: 150px ;
+    display: flex;
+}
+
+.imgform{
+    width: 100%;
+    height: 70%;
+}
+
+.footerpart{
+    padding: 20px;
+    display: flex;
+    height: 180px;
+    
+}
+.footerhead{
+    height: 80px;
+    width: 200px;
+    /* background-color: aqua; */
+}
+
+
+
+#footersub{
+    font-size: 10px;
+    
+   
+
+}
+
+#wander{
+    font-size: 25px;
+    
+}
+
+.footerhead{
+    line-height: 15px;
+}
+
+.footer1{
+    /* border: solid; */
+    width: 200px;
+    margin-left: 20px;
+}
+.ul1{
+   font-size: 10px;
+   line-height: 20px;
+}
+.divhead{
+    margin-left: 39px;
+    font-size: 18px;
+
+}
+
+.footericons{
+    /* border: solid; */
+    width: 300px;
+    margin-left: 20px;
+    font-size: 50px;
+    
+    
+}
+
+.follow{
+    font-size: 10px;
+    margin-top: -20px;
+    margin-left: 7px;
+}
+#checkbox{
+    display: none;}
+    
+    .icons{
+        font-size: 1.8rem;
+        color: black;
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+        display: none;}
+
+/* mediaqueries */
+/* 
+@media (max-width:992px){
+    .header{
+        padding: 1.3rem 6%;
+        
+    }
+}
+
+@media (max-width:760px) {
+    .icons{
+        display: flex;}
+    
+    }
+
+    #closeIcon{
+        display: none;
+    }
+
+    #checkbox:checked~.icons #menuIcon{
+        display: none;
+    }
+
+    #checkbox:checked~.icons #closeIcon{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: none;}
+
+        #checkbox:checked~.navbar{
+            display: block;}
+
+            .navbar a{
+                display: block;
+                text-align: center;
+                font-size: 1.2rem;
+                margin: 1.2rem 0;
+            }  */
+
+            
